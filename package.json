@@ -1,0 +1,34 @@
+{
+    "author": "wolf@beckmann.world",
+    "dependencies": {},
+    "keywords": [],
+    "name": "uhr",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Uhr",
+        "enableMultiJS": true,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Bluetooth.png",
+                    "name": "IMG_BLUETOOTH",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "chalk"
+        ],
+        "uuid": "570bc69c-2f83-4160-b37f-eb0ace1dab5f",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
