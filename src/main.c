@@ -653,7 +653,7 @@ btRect.origin.y = center.y-14;
   
   
   
-  uint32_t num_samples = 3;  // Number of samples per batch/callback
+  uint32_t num_samples = 10;  // Number of samples per batch/callback
 
   // Subscribe to batched data events
   accel_data_service_subscribe(num_samples, accel_data_handler);
